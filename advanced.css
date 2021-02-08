@@ -1,0 +1,27 @@
+#submit {
+    background-color: blue;
+    color: white;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    margin: 10px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.field {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-right: 100px;
+}
+.navigation{
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+    display: flex;
+    flex-flow: row-reverse;
+}
